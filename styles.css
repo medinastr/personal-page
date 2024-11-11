@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #00022e;
+    color: white; /* Cor das letras brancas */
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    font-size: 36px; /* Aumenta a letra do título */
+}
+
+.section {
+    margin-bottom: 30px;
+    text-align: center; /* Centraliza o conteúdo da seção */
+}
+
+.section img, .section video {
+    width: 200px; /* Largura padrão para imagens e vídeos */
+    height: auto;
+    margin: 10px; /* Espaçamento entre imagens/vídeos */
+    display: inline-block; /* Imagens lado a lado */
+    border-radius: 8px;
+}
+
+.section-text {
+    max-width: 900px; /* Aumenta um pouco mais a largura do texto */
+    margin: 0 auto; /* Centraliza a seção de texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
